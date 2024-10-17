@@ -59,7 +59,7 @@ A Máquina de Gomas possui quatro estados principais:
 
 Os estados são definidos pela interface Estado.java, e cada estado possui suas implementações específicas nas classes correspondentes.
 
-##Fluxo de Uso
+## Fluxo de Uso
 
 - **Insira uma moeda**: O estado muda de "Sem Moeda" para "Recebeu Moeda".
 - **Acione a alavanca**: Se houver gomas, o estado muda para "Goma Vendida" e uma goma é liberada.
